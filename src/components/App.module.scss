@@ -1,0 +1,37 @@
+App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  padding-bottom: 24px;
+}
+
+.ButtonIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+  // outline: none;
+}
+
+.ButtonIcon svg {
+  width: 30px;
+  height: 30px;
+  color: #000;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    color: blue;
+    fill: currentColor;
+  }
+}
