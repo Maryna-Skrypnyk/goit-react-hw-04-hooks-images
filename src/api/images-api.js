@@ -2,7 +2,7 @@ import axios from 'axios';
 
 axios.defaults.baseURL = 'https://pixabay.com/api';
 axios.defaults.params = {
-  key: '21915448-ca2a23b845d7ec90c85800139',
+  key: '22687504-cd17fd3731d2b66e1d47a182f',
   image_type: 'photo',
   orientation: 'horizontal',
   per_page: 12,
